@@ -1,0 +1,44 @@
+#header{
+    background-color: gray;
+    height:60px;
+    
+}
+
+span{
+    color:white;
+    position: relative;
+    top:15px;
+    left: 15px;
+}
+
+.title{
+    float:left;
+    background-color: rgb(179, 176, 176);
+    height:150px;
+    width:150px;
+    text-align:center;
+    font-weight: bold;
+    line-height: 150px;/*让文字垂直居中*/
+    padding:0px; margin:0px;
+}
+
+.details{
+    float: left;
+}
+
+.section{/*先设置全边框再取消不要的*/
+    border: 1px solid;
+    border-color: rgb(219, 220, 221);
+    border-left:none;
+    border-top:none;
+}
+
+.section::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+b{
+    margin-right: 8px;
+}

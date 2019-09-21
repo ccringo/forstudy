@@ -1,0 +1,38 @@
+body {
+    width: 90%;
+    height: 90%;
+    max-width: 900px;
+    margin: 0 auto;/*第一个表示top和bottom，第二个表示left和right 
+    因为0 auto，表示上下边界为0，左右则根据宽度自适应相同值（即居中）*/
+}
+/*关于浮动高度，父元素子元素相互之间的影响还是有点模糊*/
+#header {
+    background-color: #6795eb;
+    float: left;
+    width: 25%;
+    height: 650px;
+    text-align:center/*让里面的元素居中*/
+}
+
+span {
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    position: relative;/*是相对于父元素，注意absolte是相对于整个页面不要弄混淆了*/
+    top:50px;
+}
+
+#main {
+    float: right;
+    width: 73%;
+    height: 650px;
+}
+
+.title{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+b{
+    margin-right: 8px;
+}
