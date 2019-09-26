@@ -1,0 +1,16 @@
+#main{
+   overflow: auto;
+}
+
+#left{
+    background-color: skyblue;   
+   margin-right: 0;
+    overflow: auto;
+}
+#right{
+background-color: pink;
+margin-left: 20px;
+float: right;
+width: 120px;
+
+}/*一直尝试错误，HTML中right放在前面就好了*/

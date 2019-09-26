@@ -1,0 +1,19 @@
+#main{
+    overflow: auto;
+    box-sizing: content-box;
+}
+#left{
+    background-color: skyblue;
+    float:left;
+    box-sizing: border-box;
+    width: calc(100% - 140px);/*符号左右要有空格！！*/
+}
+
+#right{
+background-color: pink;
+float:right;
+box-sizing: border-box;
+width:120px;
+
+}
+

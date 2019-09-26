@@ -1,0 +1,31 @@
+#left{
+    background-color: skyblue;
+    width:200px;
+    float:left;    
+    margin-left: -100%;
+    position: relative;
+    left:-400px;
+}
+
+#right{
+background-color: pink;
+width:100%;
+float:left;
+min-width: 200px;
+
+
+}
+
+#middle{
+    background-color: yellow;
+    width: 200px;
+    float:left; 
+    position: relative;
+    left: -400px;
+    margin-left: calc(-100% + 200px);
+}
+
+#main{overflow: hidden;
+    padding: 0 0 0 400px;
+}
+/*Right在前LM */

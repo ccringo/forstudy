@@ -1,0 +1,11 @@
+#left{
+    background-color: skyblue;
+    float: left;
+    width:30%;
+}
+
+#right{
+background-color: pink;
+float:left;
+width:70%;
+}

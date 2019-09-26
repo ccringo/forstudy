@@ -1,0 +1,13 @@
+#main{
+    display: flex;
+}
+
+#left{
+    background-color: skyblue;
+    flex:3;
+}
+
+#right{
+background-color: pink;
+flex:7;
+}

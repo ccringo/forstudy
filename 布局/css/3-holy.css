@@ -1,0 +1,29 @@
+#left{
+    background-color: skyblue;
+    width:200px;
+    margin-left: -100%;
+    float:left;
+    position: relative;
+    left:-200px;
+}
+
+#right{
+background-color: pink;
+width:200px;
+margin-left: -200px;
+float:left;
+position: relative;
+right: -200px;
+
+}
+
+#middle{
+    background-color: yellow;
+    width: 100%;
+    float:left;
+    min-width: 200px;
+
+}
+
+#main{overflow: hidden;
+padding:0 200px;}

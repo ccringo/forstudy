@@ -1,0 +1,11 @@
+#left{
+    background-color: skyblue;
+    position: absolute;
+    width: 30%;
+}
+
+#right{
+background-color: pink;
+margin-left: 31%; /*30缩小会挡住*/
+
+}
